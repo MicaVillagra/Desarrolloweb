@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--titulo-->
+  <title>Contacto</title>
+  <!--Link de iconos-->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <!--css-->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!--Mi encabezado, navegaciones, logo-->
+  <header>
+    <header class="real">
+      <nav class="nav-real">
+        <div class="container nav-container">
+          <img src="imagen/logo.png" class="imagen-logo" alt="">
+          <div class="logoname">
+            <p class="mayuscula">Pro</p><p>Trading</p>
+        </div>
+          <div class="link">
+            <a href="index.html" class="link">Inicio</a>
+            <a href="servicios.html" class="link">Servicios</a>
+            <a href="blog.html" class="link">Blog</a>
+            <a href="nosotros.html" class="link">Nosotros</a>
+            <a href="tienda.html" class="link">Tienda</a>
+            <a href="contacto.html" class="link link-activo">Contacto</a>
+            
+          </div>
+        </div>
+      </nav>
+      <section class="container real-principal">
+        <div class="real-textos">
+          <h1 class="titulo">Únete a nuestro equipo, <span class="titulo-activo">estamos repensando la educación en
+              latinoamerica para brindar oportunidades y
+              desarrollar talento</span></h1>
+          <p class="parrafo">Súmate a nuestra revolución... <span class="parrafo-activo"> Contactanos YA!!</span></p>
+        </div>
+        <img src="imagen/contacto.png" class="imagenP" alt="">
+      </section>
+    </header>
+    <!--Fin de mi encabezado-->
+    <!--Formas de contactarse para anotarse a los cursos, con link de whatsapp, email y ubicacion -->
+    <section>
+      <div class="container-contacto bg-light">
+          <form class="row g-3 m-auto" m-auto>
+            <div class="col-md-4" m-auto>
+              <label for="inputEmail4" class="form-label">Correo electronico</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-4">
+              <label for="inputPassword4" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">
+                <datagrid>Direccion</datagrid>
+              </label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 avenida los aromos">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Direccion 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Dpto, Oficina o piso">
+            </div>
+            <div class="col-md-4">
+              <label for="inputCity" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Pais</label>
+              <select id="inputState" class="form-select">
+                <option selected>seleccionar...</option>
+                <option>Estados Unidos</option>
+                <option>Argentina</option>
+                <option>Mexico</option>
+                <option>Africa</option>
+                <option>Alemania</option>
+                <option>Canada</option>
+                <option>Egipto</option>
+                <option>Brasil</option>
+                <option>Austria</option>
+                <option>Belgica</option>
+                <option>Chile</option>
+                <option>Francia</option>
+                <option>Hungria</option>
+                <option>Japon</option>
+                <option>China</option>
+                <option>Peru</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  click aqui
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">ENVIAR</button>
+            </div>
+          </form>
+          <div class="mapa">
+            <h2>UBICACION DE OFICINAS</h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d905.4815245851012!2d-64.43777263346186!3d-31.714584243229034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d5153d5589e31%3A0xd6c17e4eb18a1607!2zMzHCsDQyJzUxLjkiUyA2NMKwMjYnMTYuMSJX!5e0!3m2!1ses-419!2sar!4v1620408622891!5m2!1ses-419!2sar"
+              width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+    </section>
+    <!--fin de section-->
+    <!--pie de pagina-->
+    <footer class="footer">
+      <div class=" contacto">
+        <div class="item-contacto">
+          <i class='bx bxs-home contato-icon contacto-iconmodif'></i>
+          <h3 class="contacto-title">
+            <a href="index.html">Volver Inicio</a>
+            <a href="blog.html">Blog</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="tienda.html">Tienda</a>
+          </h3>
+        </div>
+        <div class="item-contacto">
+          <div class="socialmedia">
+            <a href="https://www.facebook.com/"><i class='socialmedia-blog bx bxl-facebook-circle'></i></a>
+            <a href="https://www.instagram.com/"><i class='socialmedia-blog bx bxl-instagram'></i></a>
+            <a href="https://www.youtube.com/"><i class='socialmedia-blog bx bxl-youtube'></i></a>
+            <a href="https://twitter.com/"> <i class='socialmedia-blog bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com/feed/"><i class='socialmedia-blog bx bxl-linkedin-square'></i></a>
+          </div>
+        </div>
+        <div class="item-contacto">
+          <i class='bx bxs-edit-location contato-icon contacto-iconmodif'></i>
+          <h3 class="contacto-title">hola@protrading.com</h3>
+        </div>
+        <div class="item-contacto item-contactogold">
+          <i class='bx bxs-chat contato-icon contacto-iconmodif'></i>
+          <h3 class="contacto-title"><a href="contacto.html">Contactanos Ahora</a></h3>
+        </div>
+      </div>
+    </footer>
+    <!--fin de footer-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

@@ -66,7 +66,7 @@ body {
 .mayuscula{
     text-transform: uppercase;
     color: var(--gold1);
-    display: block;
+    
 }
 
 /*Link de nav */
@@ -613,7 +613,7 @@ body {
     margin: 80px;
     text-align: center;
 }
-.blog{
+.blog1{
     width: 100%;
     min-height: 50vh;
     background: linear-gradient(

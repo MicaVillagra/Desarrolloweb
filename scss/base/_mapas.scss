@@ -1,0 +1,11 @@
+
+
+$redes: (
+    youtube:red,
+    facebook:#fff,
+    instgram: brown,
+);
+
+.ig{
+color: map-get($redes , instgram );
+}

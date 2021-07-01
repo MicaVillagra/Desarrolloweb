@@ -1,0 +1,127 @@
+/*variables de colores*/
+header .real {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%);
+}
+header .real .nav-real {
+  color: #fff;
+  height: 70px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+header .real .nav-real .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 100px 0;
+  height: auto;
+}
+header .real .nav-real .container .nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: inherit;
+  padding: 0;
+}
+header .real .nav-real .container .nav-container .imagen-logo {
+  width: 50px;
+  height: 50px;
+}
+header .real .nav-real .container .nav-container .imagen-logo .logo-name {
+  font-size: 32px;
+}
+header .real .nav-real .container .nav-container .imagen-logo .logo-name .mayuscula {
+  text-transform: uppercase;
+  color: var(#F4BD76);
+}
+header .real .nav-real .container .nav-container .imagen-logo .logo-name .mayuscula .link {
+  display: inline-block;
+  color: var(#fff);
+  text-decoration: none;
+  font-weight: 300;
+  padding: 10px 10px;
+}
+header .real .nav-real .container .nav-container .imagen-logo .logo-name .mayuscula .link .link-activo {
+  color: var(#F4BD76);
+  font-weight: 700;
+}
+header .real .nav-real .container .nav-container .imagen-logo .logo-name .mayuscula .link .link-activo .real-principal {
+  height: calc(100vh -70px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+header .real .nav-real .container .nav-container .imagen-logo .logo-name .mayuscula .link .link-activo .real-principal .real-textos {
+  width: 48%;
+}
+header .real .nav-real .container .nav-container .imagen-logo .logo-name .mayuscula .link .link-activo .real-principal .real-textos .titulo {
+  font-size: 56px;
+  font-weight: 300;
+  color: var(#fff);
+}
+header .real .nav-real .container .nav-container .imagen-logo .logo-name .mayuscula .link .link-activo .real-principal .real-textos .titulo .titulo-activo {
+  color: var(#F4BD76);
+  font-weight: 700;
+}
+header .real .nav-real .container .nav-container .imagen-logo .logo-name .mayuscula .link .link-activo .real-principal .real-textos .titulo .titulo-activo .parrafo {
+  font-size: 24px;
+  color: var(#ffffff80);
+  text-shadow: var(#1a1b1f) var(#30353b);
+  margin: 15px 0;
+}
+header .real .nav-real .container .nav-container .imagen-logo .logo-name .mayuscula .link .link-activo .real-principal .real-textos .titulo .titulo-activo .parrafo .parrafo-activo {
+  font-weight: 700;
+}
+header .real .nav-real .container .nav-container .imagen-logo .logo-name .mayuscula .link .link-activo .real-principal .real-textos .titulo .titulo-activo .parrafo .parrafo-activo .cta {
+  padding: 20px 30px;
+  display: inline-block;
+  background: linear-gradient(180deg, #f7ce90 0%, #f48d76 100%);
+  text-decoration: none;
+  color: var(#00000033);
+  font-weight: 700;
+  box-shadow: var(#1a1b1f) var(#30353b);
+  border-radius: 6px;
+}
+header .real .nav-real .container .nav-container .imagen-logo .logo-name .mayuscula .link .link-activo .real-principal .real-textos .titulo .titulo-activo .parrafo .parrafo-activo .cta .imagenP {
+  width: 100%;
+  padding: 20px;
+  margin: 20px;
+  max-height: 90vh;
+  object-fit: cover;
+}
+header .real .nav-real .container .nav-container .imagen-logo .logo-name .mayuscula .link .link-activo .real-principal .real-textos .titulo .titulo-activo .parrafo .parrafo-activo .cta .imagenP .punto {
+  color: var(#F4BD76);
+}
+header .real .nav-real .container .nav-container .imagen-logo .logo-name .mayuscula .link .link-activo .real-principal .real-textos .titulo .titulo-activo .parrafo .parrafo-activo .cta .imagenP .punto .linkColor {
+  display: inline-block;
+  color: var(#fff);
+  text-decoration: none;
+  font-weight: 300;
+  padding: 10px 10px;
+}
+header .real .nav-real .container .nav-container .imagen-logo .logo-name .mayuscula .link .link-activo .real-principal .real-textos .titulo .titulo-activo .parrafo .parrafo-activo .cta .imagenP .punto .linkColor .container-modif {
+  width: 60%;
+}
+
+/*variables de colores*/
+p {
+  font-size: 24px;
+}
+
+.ig {
+  color: brown;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Domine", serif;
+}
+
+/*# sourceMappingURL=style.css.map */

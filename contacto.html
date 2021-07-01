@@ -2,39 +2,47 @@
 <html lang="en">
 
 <head>
-   <!--META ETIQUETA GENERAL-->
-   <meta charset="UTF-8" />
-   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-   <meta name="description" content="Real Pro Trading, dictamos cursos para ayudarte a lograr la meta de tus sueños, adquiriras conocimientos de bolsa de mercado,
+  <!--META ETIQUETA GENERAL-->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <meta name="description" content="Real Pro Trading, dictamos cursos para ayudarte a lograr la meta de tus sueños, adquiriras conocimientos de bolsa de mercado,
    la economia y como saber invertir en acciones importantes. Te enseñamos desde cero, animate al gran cambio" />
-   <!--META KEYWORDS-->
-   <meta name="keywords" content="Bolsa de mercado,economia,inversiones,finanzas,cursos,criptomonedas,real pro trading"/>
-   <!--PROTOCOLO OPEN GRAPH-->
-   <meta property="og.tittle" content="Somos los mejores trader" />
-   <meta property="og:image" content="image/imagenpararedes.jpg" />
-   <meta property="og:author" content="Martin Gigena" />
-   <meta property="og:description" content="Real Pro Trading, dictamos cursos para ayudarte a lograr la meta de tus sueños, adquiriras conocimientos de bolsa de mercado,
-   la economia y como saber invertir en acciones importantes. Te enseñamos desde cero, animate al gran cambio" />
-   <!--Link de iconos-->
-   <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-   <!-- Bootstrap CSS -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
-   <!--link de css-->
-   <link rel="stylesheet" href="style.css">
-   <!--tITULO DE PAGINA WEB-->
-   <title>R P T | ¿Y si te arriesgas y ganas?</title>
+  <!--META KEYWORDS-->
+  <meta name="keywords"
+    content="Bolsa de mercado,economia,inversiones,finanzas,cursos,criptomonedas,real pro trading" />
+  <!--PROTOCOLO OPEN GRAPH-->
+  <meta property="og.tittle" content="Somos los mejores trader" />
+  <meta property="og:image" content="image/imagenpararedes.jpg" />
+  <meta property="og:author" content="Martin Gigena" />
+  <meta property="og:description" content="Real Pro Trading, dictamos cursos para ayudarte a lograr la meta de tus sueños, adquiriras conocimientos de bolsa de mercado,
+  la economia y como saber invertir en acciones importantes. Te enseñamos desde cero, animate al gran cambio" />
+  <!--Link de Animaciones -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--Link de iconos-->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <!--link de css-->
+  <link rel="stylesheet" href="style.css">
+  <!--tITULO DE PAGINA WEB-->
+  <title>R P T | ¿Y si te arriesgas y ganas?</title>
+
 <body>
   <!--Mi encabezado, navegaciones, logo-->
   <header>
     <header class="real">
       <nav class="nav-real">
         <div class="container nav-container">
-          <img src="imagen/logo.png" class="imagen-logo" alt="">
-          <div class="logoname">
-            <p class="mayuscula">Pro</p><p>Trading</p>
+          <div data-aos="zoom-in" data-aos-duration="2000">
+            <img data-aos-offset="800" src="imagen/logo.png" class="imagen-logo"
+                alt="un grafico en alza color azul y gris">
         </div>
+          <div class="logoname">
+            <p class="mayuscula">Pro</p>
+            <p>Trading</p>
+          </div>
           <div class="link">
             <a href="index.html" class="link">Inicio</a>
             <a href="servicios.html" class="link">Servicios</a>
@@ -42,7 +50,7 @@
             <a href="nosotros.html" class="link">Nosotros</a>
             <a href="tienda.html" class="link">Tienda</a>
             <a href="contacto.html" class="link link-activo">Contacto</a>
-            
+
           </div>
         </div>
       </nav>
@@ -60,70 +68,70 @@
     <!--Formas de contactarse para anotarse a los cursos, con link de whatsapp, email y ubicacion -->
     <section>
       <div class="container-contacto bg-light">
-          <form class="row g-3 m-auto" m-auto>
-            <div class="col-md-4" m-auto>
-              <label for="inputEmail4" class="form-label">Correo electronico</label>
-              <input type="email" class="form-control" id="inputEmail4">
-            </div>
-            <div class="col-md-4">
-              <label for="inputPassword4" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="inputPassword4">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress" class="form-label">
-                <datagrid>Direccion</datagrid>
-              </label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 avenida los aromos">
-            </div>
-            <div class="col-12">
-              <label for="inputAddress2" class="form-label">Direccion 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Dpto, Oficina o piso">
-            </div>
-            <div class="col-md-4">
-              <label for="inputCity" class="form-label">Ciudad</label>
-              <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="col-md-4">
-              <label for="inputState" class="form-label">Pais</label>
-              <select id="inputState" class="form-select">
-                <option selected>seleccionar...</option>
-                <option>Estados Unidos</option>
-                <option>Argentina</option>
-                <option>Mexico</option>
-                <option>Africa</option>
-                <option>Alemania</option>
-                <option>Canada</option>
-                <option>Egipto</option>
-                <option>Brasil</option>
-                <option>Austria</option>
-                <option>Belgica</option>
-                <option>Chile</option>
-                <option>Francia</option>
-                <option>Hungria</option>
-                <option>Japon</option>
-                <option>China</option>
-                <option>Peru</option>
-              </select>
-            </div>
-            <div class="col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  click aqui
-                </label>
-              </div>
-            </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary">ENVIAR</button>
-            </div>
-          </form>
-          <div class="mapa">
-            <h2>UBICACION DE OFICINAS</h2>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d905.4815245851012!2d-64.43777263346186!3d-31.714584243229034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d5153d5589e31%3A0xd6c17e4eb18a1607!2zMzHCsDQyJzUxLjkiUyA2NMKwMjYnMTYuMSJX!5e0!3m2!1ses-419!2sar!4v1620408622891!5m2!1ses-419!2sar"
-              width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+        <form class="row g-3 m-auto" m-auto>
+          <div class="col-md-4" m-auto>
+            <label for="inputEmail4" class="form-label">Correo electronico</label>
+            <input type="email" class="form-control" id="inputEmail4">
           </div>
+          <div class="col-md-4">
+            <label for="inputPassword4" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">
+              <datagrid>Direccion</datagrid>
+            </label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 avenida los aromos">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Direccion 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Dpto, Oficina o piso">
+          </div>
+          <div class="col-md-4">
+            <label for="inputCity" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Pais</label>
+            <select id="inputState" class="form-select">
+              <option selected>seleccionar...</option>
+              <option>Estados Unidos</option>
+              <option>Argentina</option>
+              <option>Mexico</option>
+              <option>Africa</option>
+              <option>Alemania</option>
+              <option>Canada</option>
+              <option>Egipto</option>
+              <option>Brasil</option>
+              <option>Austria</option>
+              <option>Belgica</option>
+              <option>Chile</option>
+              <option>Francia</option>
+              <option>Hungria</option>
+              <option>Japon</option>
+              <option>China</option>
+              <option>Peru</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                click aqui
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">ENVIAR</button>
+          </div>
+        </form>
+        <div class="mapa">
+          <h2>UBICACION DE OFICINAS</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d905.4815245851012!2d-64.43777263346186!3d-31.714584243229034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d5153d5589e31%3A0xd6c17e4eb18a1607!2zMzHCsDQyJzUxLjkiUyA2NMKwMjYnMTYuMSJX!5e0!3m2!1ses-419!2sar!4v1620408622891!5m2!1ses-419!2sar"
+            width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
         </div>
+      </div>
     </section>
     <!--fin de section-->
     <!--pie de pagina-->
@@ -163,6 +171,11 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
       integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
+    </script>
+    <!--Libreria AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
 </body>
 

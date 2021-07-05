@@ -1,0 +1,371 @@
+main {
+    .servicios{
+        background: #fafafa;
+        div {
+            width: 90%;
+            
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 100px 0;
+            height: auto;
+            h2 {
+                font-size: 42px;
+                margin: 10px;
+                padding: 10px;
+                .punto {
+                    color: #F4BD76;
+                    
+                }
+            }
+            .parrafo-section {
+                color: #1a1b1f;
+                font-size: 22px;
+                line-height: 32px;
+                margin: 10px;
+                padding: 10px;
+                .parrafo-section-modif{
+                    text-align: center;
+                    margin: 0 auto;
+                    margin-bottom: 32px;
+                }
+            }
+            article{
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                div{
+                    width: 30%;
+                    padding: 30px 0;
+                    overflow: hidden;
+                    background: linear-gradient(180deg,#00000033 0%,#1a1b1f 100%);
+                    position: relative;
+                    text-align: center;
+                    margin-bottom: 60px;
+                    box-shadow: 0 0 6px #30353b;
+
+                    .card-img{
+                        width: 100%;
+                        height: 200px;
+                        object-fit: cover;
+                    }
+                }
+                div .cards-text{
+                    text-align: center;
+                    width: 95%;
+                    margin: 0 auto;
+
+                    .card-list{
+                        color: #f6cd8f;
+                        font-weight: 700;
+                        font-size: 20px;
+                    }
+                    .card-title{
+                        font-size: 40px;
+                        color:#ffffff;
+                        margin-bottom: 8px;
+
+                        .punto{
+                            color: #F4BD76;
+                        }
+                    }
+                    .card-parrafo{
+                        color:#f6cd8f;
+                        margin-bottom: 16px;
+                        padding: 20px;
+                    }
+                    .card-button{
+                        
+                        background: linear-gradient(180deg, #f7ce90 0%, #f4bd76 100%);
+                        border-radius: 1px;
+                        text-decoration: none;
+                        width: 90%;
+                        color:#1a1b1f ;
+                        font-weight: 700;
+                        text-align: center;
+                        padding: 12px 0;
+                    }
+                }
+            }
+        }
+    }
+    .container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 100px 0;
+    height: auto;
+        .blog{
+            width: 100%;
+    min-height: 50vh;
+    background: linear-gradient(180deg, var(#00000033) 0%, var(#1a1b1f)100%);
+        }
+        .subtitulo{
+            font-size: 42px;
+            .punto{
+                color: #F4BD76;
+            }
+        }
+        .parrafo-section{
+            color: #1a1b1f;
+            font-size: 22px;
+            line-height: 32px;
+            margin-bottom: 60px;
+        }
+        .container-bg {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .card{
+                width: 30%;
+                padding: 30px 0;
+                overflow: hidden;
+                background: linear-gradient(180deg, (#0e0d0da1) 0%,(#1a1b1f)100%);
+                position: relative;
+                text-align: center;
+                margin-bottom: 60px;
+                box-shadow: 0 0 6px (#6d656533);
+
+                .card-text{
+                    text-align: left;
+                    width: 95%;
+                    margin: 0 auto;
+                }
+                .card-title{
+                    font-size: 38px;
+                    color: #fff;
+                    margin-bottom: 8px;
+                    .punto{
+                        color: #F4BD76;
+                    }
+                }
+                .card-date{
+                    color: #f6cd8f;
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 16px;
+                }
+                .card-parrafo{
+                    color: #f6cd8f;
+                    margin-bottom: 16px;
+                    padding:  20px;
+                }
+                .card-button{
+                    background: linear-gradient(180deg, #f7ce90 0%, #f4bd76 100%);
+                        border-radius: 1px;
+                        text-decoration: none;
+                        width: 90%;
+                        color:#1a1b1f ;
+                        font-weight: 700;
+                        text-align: center;
+                        padding: 12px 0;
+                        margin: 20px;
+                }
+            }
+            .background{
+                width: 68%;
+                height: 290px;
+                border-radius: 10px;
+                position: relative;
+                margin-bottom: 60px;
+
+                .background-img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: inherit;
+                }
+
+                .background-text{
+                    position: absolute;
+                    width: 100%;
+                    bottom: 10px;
+                    left: 15px;
+                    background: linear-gradient(180deg, #ffc978 0%, #f4bd76 100%);
+                    color: rgb(0, 0, 0);
+                }
+
+                .background-title{
+                    font-size: 24px;
+                    margin-bottom: 4px;
+                    color:#1a1b1f;
+                    font-weight: 600;
+                }
+                .background-copy{
+                    font-size: 20px;
+                    margin: auto;
+                    color: #1a1b1f;
+                    font-weight: 400;
+                }
+            }
+        }
+        .tienda{
+            background: #fafafa;
+
+            .container{
+                width: 90%;
+                max-width: 1200px;
+                margin: 0 auto;
+                overflow: hidden;
+                padding: 100px 0;
+                height: auto;
+
+                .subtitulo{
+                    font-size: 42px;
+
+                    .punto{
+                        color: #F4BD76;
+                    }
+                }
+                .parrafo-section{
+                    color: #1a1b1f;
+                    font-size: 22px;
+                    line-height: 32px;
+                    margin-bottom: 60px;
+                }
+                
+            }
+        }
+    }
+}
+.tienda-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    .tienda-card{
+        width: 30%;
+        height: 500px;
+        background: linear-gradient(180deg, (#0e0d0da1) 0%,(#1a1b1f)100%);
+        border-radius: 10px;
+        position: relative;
+        margin-bottom: 30px;
+
+        .tienda-img{
+            width: 100%;
+            height: 100%;
+            border-radius: inherit;
+            object-fit: cover;
+            object-position: center top;
+        }
+        .tienda-copy{
+            position: absolute;
+            bottom: 20px;
+            left: 5%;
+            width: 90%;
+            background: linear-gradient(180deg, (#0e0d0da1) 0%,(#1a1b1f)100%);
+            color: #fff;
+            margin: 0 auto;
+            box-shadow: #30353b ,#6d656533;
+            padding: 15px 8px;
+            display: flex;
+            align-items: center;
+
+            .tienda-logo{
+                font-size: 40px;
+                margin-right: 15px;
+                display: inline-block;
+            }
+            .tienda-info{
+                width: 70%;
+
+                .tienda-name{
+                    font-size: 24px;
+                    line-height: 28px;
+                }
+                .tienda-position{
+                    color: #ffffff80;
+                }
+                .tiendaLink{
+                    color: #F4BD76;
+                    text-decoration: none;
+                    font-family: inherit;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+.email{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 100px 0;
+    height: auto;
+    text-align: center;
+
+    .subtitulo-modif{
+        text-align: center;
+        margin-bottom: 16px;
+        font-size: 42px;
+        .punto{
+            color: #F4BD76;
+        }
+    }
+    .parrafo-section-modif{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 32px;
+        color: #1a1b1f;
+        font-size: 22px;
+    }
+    .check{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 0 auto;
+
+        .check-item{
+            width: 30%;
+            padding-right: 10px;
+            display: flex;
+            border-right: 2px solid #1a1b1f;
+        }
+        .check-number{
+            font-weight: 700;
+        }
+        .check-parrafo{
+            font-weight: 300;
+        }
+        
+        }
+        form{
+            width: 60%;
+            margin: 0 auto;
+            margin-top: 40px;
+            text-align: center;
+            height: auto;
+            font-family: inherit;
+            position: relative;
+            border-radius: 6px;
+
+            .casilla-input{
+                width: 100%;
+                height: 100%;
+                padding: 22px 10px;
+                outline: none;
+                font-family: inherit;
+                border-radius: 6px;
+                border: 1px solid #1a1b1f;
+            }
+            .casilla-submit{
+                position: absolute;
+                right: 8px;
+                top: 10%;
+                height: 80%;
+                background:  linear-gradient(180deg, (#0e0d0da1) 0%,(#1a1b1f)100%);
+                color: #fff;
+                padding: 0 15px;
+                border: none;
+                border-radius: 6px;
+                font-family: inherit;
+                font-weight: 700;
+                cursor: pointer;
+            }
+        }
+        
+    }

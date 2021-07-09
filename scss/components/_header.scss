@@ -65,20 +65,17 @@ header{
             text-align: center;
             padding: 10px;
         }
-        h1{
+        
+        .titulo-activo{
+            color:#F4BD76 ;
+            font-weight: 700;
             font-size: 58px;
-            font-weight: 300;
-            color: #fff;
             text-align: center;
             justify-content: center;
         }
-        h1 .titulo-activo{
-            color:#F4BD76 ;
-            font-weight: 700;
-        }
         p{
             font-size: 30px;
-            color: #ffffff80;
+            color: #ffffff;
             text-shadow: #30353b;  
             padding: 0;
         }
@@ -88,7 +85,7 @@ header{
         .cta{
             padding: 20px 30px;
             display: inline-block;
-            background: linear-gradient(180deg, #f7ce90 0%, #f48d76 100%);
+            background:#F4BD76;
             text-decoration: none;
             color: #30353b;
             font-weight: 700;

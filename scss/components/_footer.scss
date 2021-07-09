@@ -9,7 +9,7 @@ footer{
         max-width: 1200px;
         margin: 0 auto;
         overflow: hidden;
-        padding: 100px 0;
+        padding: 20px 0;
         height: auto;
 
         .get-email{
@@ -71,7 +71,7 @@ footer{
             }
         }
     }
-    .contacto{
+    .contacto {
         display: flex;
         width: 100%;
         flex-wrap: wrap;
@@ -92,9 +92,9 @@ footer{
             }
         }
         .item-contactogold{
-            background: linear-gradient(180deg, #f7ce90 0%, #f48d76 100%);
+            background: #F4BD76;
             color: #1a1b1f;
-
+        
             .contacto-iconmodif{
                 color: #1a1b1f;
                 font-size: 14px;
@@ -108,10 +108,6 @@ footer{
             }
         }
         
-        .contacto-title a {
-            color:#ffffff;
-            text-decoration: none;
-            margin-right: 20px;
-        }
+        
     }
 }

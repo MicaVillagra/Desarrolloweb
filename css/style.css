@@ -63,20 +63,16 @@ header section div {
   text-align: center;
   padding: 10px;
 }
-header section h1 {
+header section .titulo-activo {
+  color: #F4BD76;
+  font-weight: 700;
   font-size: 58px;
-  font-weight: 300;
-  color: #fff;
   text-align: center;
   justify-content: center;
 }
-header section h1 .titulo-activo {
-  color: #F4BD76;
-  font-weight: 700;
-}
 header section p {
   font-size: 30px;
-  color: #ffffff80;
+  color: #ffffff;
   text-shadow: #30353b;
   padding: 0;
 }
@@ -86,7 +82,7 @@ header section .parrafo-activo {
 header section .cta {
   padding: 20px 30px;
   display: inline-block;
-  background: linear-gradient(180deg, #f7ce90 0%, #f48d76 100%);
+  background: #F4BD76;
   text-decoration: none;
   color: #30353b;
   font-weight: 700;
@@ -129,6 +125,7 @@ main .servicios div {
   height: auto;
 }
 main .servicios div h2 {
+  color: linear-gradient(#30353b 0%, #1a1b1f 100%);
   font-size: 42px;
   margin: 10px;
   padding: 10px;
@@ -154,10 +151,9 @@ main .servicios div article {
   flex-wrap: wrap;
 }
 main .servicios div article div {
-  width: 30%;
+  width: 35%;
   padding: 30px 0;
   overflow: hidden;
-  background: linear-gradient(180deg, #00000033 0%, #1a1b1f 100%);
   position: relative;
   text-align: center;
   margin-bottom: 60px;
@@ -174,32 +170,34 @@ main .servicios div article div .cards-text {
   margin: 0 auto;
 }
 main .servicios div article div .cards-text .card-list {
-  color: #f6cd8f;
+  color: #F4BD76;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
+  text-align: center;
 }
 main .servicios div article div .cards-text .card-title {
   font-size: 40px;
   color: #ffffff;
   margin-bottom: 8px;
+  text-align: center;
 }
 main .servicios div article div .cards-text .card-title .punto {
   color: #F4BD76;
 }
 main .servicios div article div .cards-text .card-parrafo {
-  color: #f6cd8f;
+  color: #ffffff;
   margin-bottom: 16px;
   padding: 20px;
 }
 main .servicios div article div .cards-text .card-button {
-  background: linear-gradient(180deg, #f7ce90 0%, #f4bd76 100%);
-  border-radius: 1px;
+  padding: 20px 30px;
+  display: inline-block;
+  background: #F4BD76;
   text-decoration: none;
-  width: 90%;
-  color: #1a1b1f;
+  color: #30353b;
   font-weight: 700;
-  text-align: center;
-  padding: 12px 0;
+  box-shadow: 0 8px 8px, #00000033;
+  margin: 10px;
 }
 main .container {
   width: 90%;
@@ -236,7 +234,6 @@ main .container .container-bg .card {
   width: 30%;
   padding: 30px 0;
   overflow: hidden;
-  background: linear-gradient(180deg, #0e0d0da1 0%, #1a1b1f 100%);
   position: relative;
   text-align: center;
   margin-bottom: 60px;
@@ -262,20 +259,19 @@ main .container .container-bg .card .card-date {
   margin-bottom: 16px;
 }
 main .container .container-bg .card .card-parrafo {
-  color: #f6cd8f;
+  color: #ffffff;
   margin-bottom: 16px;
   padding: 20px;
 }
 main .container .container-bg .card .card-button {
-  background: linear-gradient(180deg, #f7ce90 0%, #f4bd76 100%);
-  border-radius: 1px;
+  padding: 20px 30px;
+  display: inline-block;
+  background: #F4BD76;
   text-decoration: none;
-  width: 90%;
-  color: #1a1b1f;
+  color: #30353b;
   font-weight: 700;
-  text-align: center;
-  padding: 12px 0;
-  margin: 20px;
+  box-shadow: 0 8px 8px, #00000033;
+  margin: 10px;
 }
 main .container .container-bg .background {
   width: 68%;
@@ -295,19 +291,19 @@ main .container .container-bg .background .background-text {
   width: 100%;
   bottom: 10px;
   left: 15px;
-  background: linear-gradient(180deg, #ffc978 0%, #f4bd76 100%);
-  color: black;
+  background-color: #1a1b1f;
+  color: white;
 }
 main .container .container-bg .background .background-title {
   font-size: 24px;
   margin-bottom: 4px;
-  color: #1a1b1f;
+  color: #ffffff;
   font-weight: 600;
 }
 main .container .container-bg .background .background-copy {
   font-size: 20px;
   margin: auto;
-  color: #1a1b1f;
+  color: #ffffff;
   font-weight: 400;
 }
 main .container .tienda {
@@ -360,7 +356,7 @@ main .container .tienda .container .parrafo-section {
   bottom: 20px;
   left: 5%;
   width: 90%;
-  background: linear-gradient(180deg, #0e0d0da1 0%, #1a1b1f 100%);
+  background: linear-gradient(#30353b 0%, #1a1b1f 100%);
   color: #fff;
   margin: 0 auto;
   box-shadow: #30353b, #6d656533;
@@ -369,7 +365,7 @@ main .container .tienda .container .parrafo-section {
   align-items: center;
 }
 .tienda-container .tienda-card .tienda-copy .tienda-logo {
-  font-size: 40px;
+  font-size: 20px;
   margin-right: 15px;
   display: inline-block;
 }
@@ -381,7 +377,8 @@ main .container .tienda .container .parrafo-section {
   line-height: 28px;
 }
 .tienda-container .tienda-card .tienda-copy .tienda-info .tienda-position {
-  color: #ffffff80;
+  color: #ffffff;
+  font-size: 18px;
 }
 .tienda-container .tienda-card .tienda-copy .tienda-info .tiendaLink {
   color: #F4BD76;
@@ -477,7 +474,7 @@ footer .footer-caption {
   max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
-  padding: 100px 0;
+  padding: 20px 0;
   height: auto;
 }
 footer .footer-caption .get-email {
@@ -555,7 +552,7 @@ footer .contacto .item-contacto i {
   margin-right: 4px;
 }
 footer .contacto .item-contactogold {
-  background: linear-gradient(180deg, #f7ce90 0%, #f48d76 100%);
+  background: #F4BD76;
   color: #1a1b1f;
 }
 footer .contacto .item-contactogold .contacto-iconmodif {
@@ -567,11 +564,6 @@ footer .contacto .item-contactogold .contacto-iconmodif {
 footer .contacto .item-contactogold .contacto-gold a {
   color: #1a1b1f;
   text-decoration: none;
-}
-footer .contacto .contacto-title a {
-  color: #ffffff;
-  text-decoration: none;
-  margin-right: 20px;
 }
 
 .container {
@@ -602,6 +594,246 @@ footer .contacto .contacto-title a {
 .container .card-parrafo li {
   list-style: none;
   font-size: 20px;
+}
+
+.imagenP-blog {
+  width: 100%;
+  height: 50%;
+  padding: 30px;
+  margin: 40px;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+article .card {
+  width: 30%;
+  padding: 30px 0;
+  overflow: hidden;
+  background: linear-gradient(180deg, #0e0d0da1 0%, #1a1b1f 100%);
+  position: relative;
+  text-align: center;
+  margin-bottom: 60px;
+  box-shadow: 0 0 6px #6d656533;
+}
+article .card .card-text {
+  text-align: left;
+  width: 95%;
+  margin: 0 auto;
+}
+article .card .card-title {
+  font-size: 38px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+article .card .card-title .punto {
+  color: #F4BD76;
+}
+article .card .card-date {
+  color: #f6cd8f;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+article .card .card-parrafo {
+  color: #f6cd8f;
+  margin-bottom: 16px;
+  padding: 20px;
+}
+article .card .card-button {
+  background: linear-gradient(180deg, #f7ce90 0%, #f4bd76 100%);
+  border-radius: 1px;
+  text-decoration: none;
+  width: 90%;
+  color: #1a1b1f;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px 0;
+  margin: 20px;
+}
+article .background {
+  width: 68%;
+  height: 290px;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 60px;
+}
+article .background .background-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+article .background .background-text {
+  position: absolute;
+  width: 100%;
+  bottom: 30px;
+  left: 15px;
+  color: #fff;
+}
+article .background .background-title {
+  font-size: 24px;
+  margin-bottom: 4px;
+  color: #1a1b1f;
+  font-weight: 200;
+}
+article .background .background-copy {
+  font-size: 20px;
+  margin: auto;
+  color: #1a1b1f;
+  font-weight: 200;
+}
+
+.blog1 {
+  width: 100%;
+  min-height: 50vh;
+  background: linear-gradient(180deg, #1a1b1f 0%, #1a1b1f 100%);
+}
+.blog1 .blog-titulo {
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  padding: 80px;
+  margin: 80px;
+  text-align: center;
+}
+.blog1 .boton {
+  margin: auto;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #1a1b1f;
+}
+
+.contacto {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  color: #fff;
+}
+.contacto .item-contacto {
+  width: 25%;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  background: linear-gradient(180deg, #201e1ea1 0%, #1a1b1f 100%);
+}
+.contacto .item-contacto i {
+  font-size: 14px;
+  color: #F4BD76;
+  line-height: 20px;
+  margin-right: 4px;
+}
+.contacto .item-contacto .contacto-title a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+footer {
+  background: #8a8a8a28;
+}
+footer .footer-caption {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px 0;
+  height: auto;
+}
+footer .footer-caption .get-email {
+  width: 30%;
+}
+footer .footer-caption .title-footer {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+footer .footer-caption .casilla-modif {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+  height: auto;
+  font-family: inherit;
+  position: relative;
+  border-radius: 6px;
+}
+footer .footer-caption .casilla-modif .casilla-input {
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+  outline: none;
+  font-family: inherit;
+  border-radius: 6px;
+  border: 1px solid #1a1b1f;
+}
+footer .footer-caption .casilla-modif .casilla-submit {
+  position: absolute;
+  right: 8px;
+  top: 10%;
+  height: 80%;
+  background: linear-gradient(180deg, #201e1ea1 0%, #1a1b1f 100%);
+  color: #fff;
+  padding: 0 15px;
+  border: none;
+  border-radius: 6px;
+  font-family: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+footer .footer-caption .socialmedia {
+  margin-top: 24px;
+  color: #201e1ea1;
+  text-align: center;
+}
+footer .footer-caption .socialmedia .socialmedia-legend {
+  color: #1a1b1f94;
+  margin-right: 6px;
+}
+footer .footer-caption .socialmedia .socialmedia-icon {
+  font-size: 18px;
+  margin-right: 30px;
+  display: inline-block;
+  color: #8172ffc7;
+}
+footer .contacto {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  color: #fff;
+}
+footer .contacto .item-contacto {
+  width: 25%;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+  background: linear-gradient(180deg, #201e1ea1 0%, #1a1b1f 100%);
+}
+footer .contacto .item-contacto i {
+  font-size: 14px;
+  color: #F4BD76;
+  line-height: 20px;
+  margin-right: 4px;
+}
+footer .contacto .item-contactogold {
+  background: #F4BD76;
+  color: #1a1b1f;
+}
+footer .contacto .item-contactogold .contacto-iconmodif {
+  color: #1a1b1f;
+  font-size: 14px;
+  line-height: 20px;
+  margin-right: 4px;
+}
+footer .contacto .item-contactogold .contacto-gold a {
+  color: #1a1b1f;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,60 @@
+
+.blogE{
+    width: 100%;
+    background: linear-gradient( #30353b 0%, #1a1b1f 100%);
+    min-height: 10vh;
+}
+.blogs{
+    color: linear-gradient( #30353b 0%, #1a1b1f 100%);
+    font-size: 42px;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+}
+.imagenBlogs{
+    display:block;
+    margin:auto;
+    width:800px;
+    padding: auto;
+}
+.parrafoB{
+    font-size: 30px;
+    display: inline-block;
+    text-align:center;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+    color: linear-gradient( #30353b 0%, #1a1b1f 100%);
+}
+.tresColumnas{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -moz-column-gap: 20px; 
+    column-gap: 20px;
+    -webkit-column-rule: 2px solid #30353b;
+    -moz-column-rule: 2px solid  #30353b; 
+    column-rule: 2px solid  #30353b  ;
+
+    .parrafosBlogs{
+        font-size: 15px;
+        font-size: 1.5rem;    
+        line-height: 1.333333334;
+        margin-bottom: 20px;
+        margin-bottom: 2rem;
+        text-align: justify;
+        padding: 20px;
+        margin: 20px;
+        padding-bottom: 30px;
+    }
+    .subtituloBlogs{
+        color: linear-gradient( #30353b 0%, #1a1b1f 100%);
+        font-size: 30px;
+        line-height: 1.333333334;
+        margin-bottom: 20px;
+        margin-bottom: 2rem;
+        text-align: center;
+        padding: 20px;
+        margin: 40px;
+    }
+}

@@ -1,0 +1,114 @@
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    .realTienda{
+        height: calc(100vh -70px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+    .tiendaTextos{
+        width: 100%;
+    margin: 20px;
+    }
+    .imagenT{
+        width: 100%;
+        padding: 20px;
+        margin: 20px;
+        max-height: 90vh;
+        object-fit: cover;
+    }
+}
+.tienda{
+    background: #fafafa;
+
+    div .container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 100px 0;
+    height: auto;
+    }
+    h2 {
+        color:  #1a1b1f;
+        font-size: 42px;
+        margin: 10px;
+        padding: 10px;
+        font-weight:bold;
+
+        .punto{
+        color: #F4BD76;
+    }
+    }
+    .parrafo-section{
+        color: #1a1b1f;
+        font-size: 22px;
+        line-height: 32px;
+        margin: 10px;
+        padding: 10px;
+    }
+    .tienda-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .tienda-card{
+            width: 30%;
+            height: 500px;
+            background: linear-gradient(180deg, (#0e0d0da1) 0%,(#1a1b1f)100%);
+            border-radius: 10px;
+            position: relative;
+            margin-bottom: 30px;
+        }
+        .tienda-img{
+            width: 100%;
+            height: 100%;
+            border-radius: inherit;
+            object-fit: cover;
+            object-position: center top;
+        }
+        .tienda-copy{
+            position: absolute;
+            bottom: 20px;
+            left: 5%;
+            width: 90%;
+            background: linear-gradient(#30353b 0%, #1a1b1f 100%);
+            color: #fff;
+            margin: 0 auto;
+            box-shadow: #30353b ,#6d656533;
+            padding: 15px 8px;
+            display: flex;
+            align-items: center;
+
+            .tienda-info{
+                width: 70%;
+
+                .tienda-name{
+                    font-size: 24px;
+                    line-height: 28px;
+                    
+                    
+
+                }
+                .tienda-position{
+                    color: #ffffff;
+                    font-size: 18px;
+                    
+                }
+                .tiendaLink {
+                    color: #F4BD76;
+                    text-decoration: none;
+                    font-family: inherit;
+                    font-size: 15px;
+                   
+                }
+            }
+        }
+    }
+}

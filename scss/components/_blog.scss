@@ -290,7 +290,8 @@ header{
                 overflow: hidden;
             }
             .imagen-logo{
-            display: none;
+            width: 20px;
+            height: 20px;
             }
             .logoname p{
                 display: none;
@@ -431,10 +432,10 @@ article {
             font-weight: 200;
         }
     }
-
+}
     @media  (min-device-width : 900px) and (max-device-width : 1024px){
         section{
-            .container-bg {
+            article {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -472,7 +473,7 @@ article {
                     }
                     
                 }
-                .background {
+                div .background {
                     width: 68%;
                     height: 200px;
                     border-radius: 10px;
@@ -486,23 +487,105 @@ article {
                         border-radius: inherit;
                     }
     
-                    .background-text {
+                    div .background-text {
                         position: absolute;
                         text-align: center;
-                        width: 100%;
+                        width: 95%;
                         bottom: 100px;
                         left: 0px;
                         background-color: #1a1b1f;
                         color: rgb(255, 255, 255);
+                        .background-titulo {
+                            font-size: 20px;
+                            margin-bottom: 4px;
+                            color: #ffffff;
+                            font-weight: 600;
+                        }
+        
+                        .background-copy {
+                            font-size: 18px;
+                            margin: auto;
+                            color: #ffffff;
+                            font-weight: 400;
+                        }
                     }
     
+                    
+                }
+            }
+        }
+        }
+    @media   (min-device-width : 700px) and (max-device-width : 900px){
+            article {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                background: #F4BD76;
+        
+                .card {
+                    width: 100%;
+                    padding: 30px 0;
+                    overflow: hidden;
+        
+                    position: relative;
+                    text-align: center;
+                    margin-bottom: 60px;
+                    background-color: #1a1b1f;
+                    .cards-text{
+                            text-align: center;
+                            width: 95%;
+                            margin: 0 auto;
+        
+                            .card-title {
+                                font-size: 18px;
+                                color: #fff;
+                                margin-bottom: 8px;
+                            }
+            
+                            .card-parrafo {
+                                margin-bottom: 16px;
+                                padding: 30px;
+                                font-weight: 300;
+                            }
+            
+                            .card-button {
+                                width: 40%;
+                            }
+                    }
+                    
+                }
+                .background {
+                    width: 100%;
+                    height: 290px;
+                    border-radius: 10px;
+                    position: relative;
+                    margin-bottom: 60px;
+        
+                    .background-img {
+                        width: 100%;
+                        height: 70%;
+                        object-fit: cover;
+                        border-radius: inherit;
+                    }
+        
+                    .background-text {
+                        position: absolute;
+                        text-align: center;
+                        width: 95%;
+                        bottom: 100px;
+                        
+                        background-color: #1a1b1f;
+                        color: rgb(255, 255, 255);
+                    }
+        
                     .background-title {
                         font-size: 20px;
                         margin-bottom: 4px;
                         color: #ffffff;
                         font-weight: 600;
                     }
-    
+        
                     .background-copy {
                         font-size: 18px;
                         margin: auto;
@@ -512,20 +595,96 @@ article {
                 }
             }
         }
-        }
+    @media  (min-device-width : 500px) and (max-device-width : 700px){
+        article {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            background: #F4BD76;
+    
+            .card {
+                width: 100%;
+                padding: 30px 0;
+                overflow: hidden;
+    
+                position: relative;
+                text-align: center;
+                margin-bottom: 60px;
+                background-color: #1a1b1f;
+                .cards-text{
+                        text-align: center;
+                        width: 95%;
+                        margin: 0 auto;
+    
+                        .card-title {
+                            font-size: 18px;
+                            color: #fff;
+                            margin-bottom: 8px;
+                        }
         
-
-   
-
+                        .card-parrafo {
+                            margin-bottom: 16px;
+                            padding: 30px;
+                            font-weight: 300;
+                        }
+        
+                        .card-button {
+                            width: 40%;
+                        }
+                }
+                
+            }
+            .background {
+                width: 100%;
+                height: 290px;
+                border-radius: 10px;
+                position: relative;
+                margin-bottom: 60px;
+    
+                .background-img {
+                    width: 100%;
+                    height: 70%;
+                    object-fit: cover;
+                    border-radius: inherit;
+                }
+    
+                .background-text {
+                    position: absolute;
+                    text-align: center;
+                    width: 95%;
+                    bottom: 100px;
+                    
+                    background-color: #1a1b1f;
+                    color: rgb(255, 255, 255);
+                }
+    
+                .background-title {
+                    font-size: 20px;
+                    margin-bottom: 4px;
+                    color: #ffffff;
+                    font-weight: 600;
+                }
+    
+                .background-copy {
+                    font-size: 18px;
+                    margin: auto;
+                    color: #ffffff;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
     @media  (min-device-width : 250px) and (max-device-width : 500px){
         .container-bg {
+            background: #ffffff;
             display: flex;
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
 
             .card {
-                width: 30%;
+                width: 100%;
                 padding: 30px 0;
                 overflow: hidden;
 
@@ -552,7 +711,7 @@ article {
                 }
             }
             .background {
-                width: 68%;
+                width: 100%;
                 height: 290px;
                 border-radius: 10px;
                 position: relative;
@@ -566,54 +725,63 @@ article {
                 }
 
                 .background-text {
-                    position: absolute;
-                    text-align: center;
-                    width: 100%;
-                    bottom: 100px;
-                    left: 0px;
-                    background-color: #1a1b1f;
-                    color: rgb(255, 255, 255);
-                }
-
-                .background-title {
-                    font-size: 20px;
-                    margin-bottom: 4px;
-                    color: #ffffff;
-                    font-weight: 600;
-                }
-
-                .background-copy {
-                    font-size: 18px;
-                    margin: auto;
-                    color: #ffffff;
-                    font-weight: 400;
+                display: none;
                 }
             }
         }
     }
-}
-.blog1{
-    width: 100%;
-    min-height: 50vh;
-    background: linear-gradient(180deg, #1a1b1f 0%, #1a1b1f 100%);
+    @media  (min-device-width : 100px) and (max-device-width : 250px){
+        .container-bg {
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
 
-    .blog-titulo{
-        font-weight: bold;
-        font-size: 25px;
-        color: white;
-        padding: 80px;
-        margin: 80px;
-        text-align: center;
-    }
+            .card {
+                width: 100%;
+                padding: 30px 0;
+                overflow: hidden;
 
-    .boton {
-        margin: auto;
-        display: block;
-        text-align: center;
-        text-decoration: none;
-        color:#1a1b1f;
+                position: relative;
+                text-align: center;
+                margin-bottom: 60px;
+                background-color: #1a1b1f;
+
+                .card-title {
+                    font-size: 25px;
+                    color: #fff;
+                    margin-bottom: 8px;
+                }
+
+                .card-parrafo {
+                    color: #ffffff;
+                    margin-bottom: 16px;
+                    padding: 30px;
+                    font-weight: 300;
+                }
+
+                .card-button {
+                    width: 40%;
+                }
+            }
+            .background {
+                width: 100%;
+                height: 290px;
+                border-radius: 10px;
+                position: relative;
+                margin-bottom: 60px;
+
+                .background-img {
+                    display: none;
+                }
+
+                .background-text {
+                display: none;
+                }
+            }
+        }
     }
-}
 
 .contacto {
     display: flex;
@@ -640,83 +808,4 @@ article {
             }
         }
 
-}
-@media   (min-device-width : 700px) and (max-device-width : 900px){
-    article {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-
-        .card {
-            width: 100%;
-            padding: 30px 0;
-            overflow: hidden;
-
-            position: relative;
-            text-align: center;
-            margin-bottom: 60px;
-            background-color: #1a1b1f;
-            .cards-text{
-                    text-align: center;
-                    width: 95%;
-                    margin: 0 auto;
-
-                    .card-title {
-                        font-size: 18px;
-                        color: #fff;
-                        margin-bottom: 8px;
-                    }
-    
-                    .card-parrafo {
-                        margin-bottom: 16px;
-                        padding: 30px;
-                        font-weight: 300;
-                    }
-    
-                    .card-button {
-                        width: 40%;
-                    }
-            }
-            
-        }
-        .background {
-            width: 68%;
-            height: 290px;
-            border-radius: 10px;
-            position: relative;
-            margin-bottom: 60px;
-
-            .background-img {
-                width: 100%;
-                height: 70%;
-                object-fit: cover;
-                border-radius: inherit;
-            }
-
-            .background-text {
-                position: absolute;
-                text-align: center;
-                width: 100%;
-                bottom: 100px;
-                left: 0px;
-                background-color: #1a1b1f;
-                color: rgb(255, 255, 255);
-            }
-
-            .background-title {
-                font-size: 20px;
-                margin-bottom: 4px;
-                color: #ffffff;
-                font-weight: 600;
-            }
-
-            .background-copy {
-                font-size: 18px;
-                margin: auto;
-                color: #ffffff;
-                font-weight: 400;
-            }
-        }
-    }
 }

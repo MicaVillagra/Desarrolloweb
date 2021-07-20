@@ -102,7 +102,7 @@ header section .imagenP {
 }
 
 body {
-  font-family: "Domine", serif;
+  font-family: "Advent Pro", sans-serif;
 }
 
 @media (min-device-width: 900px) and (max-device-width: 1024px) {
@@ -4648,10 +4648,10 @@ article .background .background-copy {
     align-items: center;
   }
   .tienda .tienda-container .tienda-card .tienda-copy .tienda-info {
-    width: 30%;
+    width: 10%;
   }
   .tienda .tienda-container .tienda-card .tienda-copy .tienda-info .tienda-name {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 18px;
     text-align: center;
   }
@@ -4668,7 +4668,7 @@ article .background .background-copy {
     color: #1a1b1f;
     text-decoration: none;
     font-family: inherit;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: bold;
     text-transform: uppercase;
   }

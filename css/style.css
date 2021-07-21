@@ -2153,8 +2153,8 @@ footer .contacto .item-contactogold .contacto-gold a {
     flex-wrap: initial;
   }
   header .imagen-logo {
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
   }
   header section {
     width: 100%;
@@ -2395,7 +2395,7 @@ header section .imagenS {
     text-align: center;
   }
   main .servicios div .subtitulo .punto {
-    color: #F4BD76;
+    color: #080808;
   }
   main .servicios div .parrafo-section {
     color: #131212;
@@ -3960,7 +3960,7 @@ article .background .background-copy {
     padding: 0;
   }
   .mediC .card-button {
-    display: none;
+    padding: auto;
   }
 }
 @media (min-device-width: 500px) and (max-device-width: 700px) {
@@ -4056,6 +4056,9 @@ article .background .background-copy {
   .mediC .puestoTrabajo {
     color: #ffffff;
     margin-bottom: 16px;
+    padding: 0;
+  }
+  .mediC .card-button {
     padding: 0;
   }
 }
@@ -4591,18 +4594,16 @@ article .background .background-copy {
     text-align: center;
   }
   .tienda .tienda-container .tienda-card .tienda-copy .tienda-info .tienda-logo {
-    width: 2px;
-    position: sticky;
+    width: 109px;
+    text-align: center;
   }
   .tienda .tienda-container .tienda-card .tienda-copy .tienda-info .tienda-logo .tiendaLink {
     text-align: center;
-    background: #F4BD76;
-    color: #1a1b1f;
+    color: #F4BD76;
     text-decoration: none;
     font-family: inherit;
     font-size: 15px;
     font-weight: bold;
-    text-transform: uppercase;
   }
 }
 @media (min-device-width: 250px) and (max-device-width: 500px) {
@@ -4653,7 +4654,6 @@ article .background .background-copy {
   }
   .tienda .tienda-container .tienda-card .tienda-copy .tienda-info .tienda-name {
     font-size: 15px;
-    line-height: 18px;
     text-align: center;
   }
   .tienda .tienda-container .tienda-card .tienda-copy .tienda-info .tienda-position {
@@ -4665,13 +4665,11 @@ article .background .background-copy {
   }
   .tienda .tienda-container .tienda-card .tienda-copy .tienda-info .tienda-logo .tiendaLink {
     text-align: center;
-    background: #F4BD76;
-    color: #1a1b1f;
+    color: #F4BD76;
     text-decoration: none;
     font-family: inherit;
     font-size: 10px;
     font-weight: bold;
-    text-transform: uppercase;
   }
 }
 @media (min-device-width: 900px) and (max-device-width: 1024px) {
@@ -4785,29 +4783,7 @@ article .background .background-copy {
   }
 }
 @media (min-device-width: 250px) and (max-device-width: 500px) {
-  header.blogE {
-    width: 100%;
-    min-height: 100vh;
-    background-color: #30353b 0%;
-  }
-  header.blogE nav .container {
-    width: 100%;
-    max-width: 1000px;
-    overflow: hidden;
-  }
-  header.blogE nav .logoname p {
-    font-size: 15px;
-  }
-  header.blogE nav .link {
-    font-size: 8px;
-    display: flex;
-    flex-wrap: initial;
-  }
-  header.blogE .imagen-logo {
-    width: 20px;
-    height: 20px;
-  }
-  header.blogE section {
+  header section {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
@@ -4818,17 +4794,17 @@ article .background .background-copy {
     align-items: center;
     padding: 0;
   }
-  header.blogE div {
+  header div {
     text-align: center;
     margin: 15px;
   }
-  header.blogE div .titulo-activo {
+  header div .titulo-activo {
     font-size: 25px;
   }
-  header.blogE div p {
+  header div p {
     font-size: 15px;
   }
-  header.blogE div .cta {
+  header div .cta {
     width: 50%;
     padding: 10px 20px;
     display: inline-block;
@@ -4839,7 +4815,7 @@ article .background .background-copy {
     box-shadow: 0 8px 8px, #00000033;
     margin: 10px;
   }
-  header.blogE .imagenP {
+  header .imagenP {
     display: none;
   }
 }

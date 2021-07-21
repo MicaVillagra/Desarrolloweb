@@ -114,31 +114,7 @@
     
 }
 @media  (min-device-width : 250px) and (max-device-width : 500px){
-    header.blogE{
-        width: 100%;
-        min-height: 100vh;
-        background-color: #30353b 0%;
-        nav{
-            
-            .container{
-                width: 100%;
-                max-width: 1000px;
-                overflow: hidden;
-            }
-            
-            .logoname p{
-                font-size: 15px;
-            }
-            .link{
-                font-size: 8px;
-                display: flex;
-                flex-wrap:initial;
-            }
-        }
-        .imagen-logo{
-            width: 20px;
-            height: 20px;
-        }
+    header{
         section{
             width: 100%;
             max-width: 900px;
